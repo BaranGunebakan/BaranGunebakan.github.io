@@ -1,0 +1,35 @@
+.right {
+    margin-left: 25px;
+}
+
+.right:hover {
+    color: #555555;
+  }
+
+.right1 {
+    margin-left: 1420px;
+}
+
+.right1:hover {
+    color: #555555;
+}
+
+.right2:hover {
+    color: #555555;
+}
+
+#column1 {
+  border-spacing: 1px;
+}
+
+.imagerotate {
+    transform: rotate(180deg);
+}
+
+.greyback {
+    background-color: #1d1d1d; 
+}
+
+.bodybg {
+    background-image: url('background1.jpg');
+}

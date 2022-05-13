@@ -1,0 +1,35 @@
+div.scrollmenu {
+    background-color: #1d1d1d;
+    overflow: auto;
+    white-space: nowrap;
+  }
+  
+  div.scrollmenu a {
+    display: inline-block;
+    color: #1d1d1d;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+  }
+  
+  div.scrollmenu a:hover {
+    background-color: #777;
+  }
+
+.oeleh::-webkit-scrollbar {
+  width: 10px;
+}
+
+.oeleh::-webkit-scrollbar-track {
+  background: #1d1d1d;
+}
+
+.oeleh::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+.oeleh::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+

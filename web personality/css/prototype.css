@@ -1,0 +1,197 @@
+.overlay-form {
+    position:absolute;
+    top:50vh;
+    left:0px;
+    width:100vw;
+    height:0vh;
+    background:rgba(0,0,0,1);
+    z-index:-1;
+    opacity:0;
+    padding:80px 100px;
+    overflow:hidden;
+    box-sizing:border-box;
+    transition: top 500ms ease-in-out,
+                opacity 500ms ease-in-out,
+                height 0ms ease-in-out 500ms;  
+  }
+  .overlay-form .close-btn {
+    position:absolute;
+    top:20px;
+    right:40px;
+    color:#fff;
+    font-size:40px;
+    cursor:pointer;
+  }
+  .overlay-form h1 {
+    font-size:32px;
+    color:#fff;
+  }
+  .overlay-form p {
+    font-size:16px;
+    color:#eee;
+    margin:-15px 0px 30px;
+  }
+
+  .overlay-form label {
+    display:block;
+    font-size:17px;
+    color:#eee;
+    margin-bottom:5px;
+  }
+  .overlay-form input {
+    width:100%;
+    padding:6px;
+    font-size:17px;
+    border:2px solid #eee;
+    background:transparent;
+    outline:none;
+    border-radius:10px;
+  }
+  .overlay-form button,
+  .center button {
+    margin-top:10px;
+    width:100px;
+    height:35px;
+    font-size:15px;
+    text-transform:uppercase;
+    background:#fff;
+    color:#222;
+    border:none;
+    outline:none;
+    border-radius:10px;
+  }
+  .center {
+    position:absolute;
+    top: 90%;
+    left:60%;
+    transform:translate(-50%,-50%);
+  }
+
+  .center1 {
+    position:absolute;
+    top: 12.5%;
+    left:95%;
+    transform:translate(-50%,-50%);
+  }
+
+  .button1 {
+    width:150px;
+    height:40px;
+    font-weight:600;
+    box-shadow:3px 3px 2px 1px rgba(0,0,0,0.1);
+    cursor:pointer;
+    Margin-top:10px;
+    width:100px;
+    height:35px;
+    font-size:15px;
+    text-transform:uppercase;
+    background:#fff;
+    color:#222;
+    border:none;
+    outline:none;
+    border-radius:10px;
+  }
+
+  .center1 button {
+    width:150px;
+    height:40px;
+    font-weight:600;
+    box-shadow:3px 3px 2px 1px rgba(0,0,0,0.1);
+    cursor:pointer;
+  }  
+
+  .center button {
+    width:150px;
+    height:40px;
+    font-weight:600;
+    box-shadow:3px 3px 2px 1px rgba(0,0,0,0.1);
+    cursor:pointer;
+  }
+  
+  body.activeForm .overlay-form {
+    z-index:2;
+    opacity:1;
+    top:0px;
+    height:100vh;
+    transition: top 500ms ease-in-out,
+                opacity 500ms ease-in-out,
+                height 0ms ease-in-out 0ms;
+  }
+
+  .centervid {
+      text-align: center;
+  }
+
+.right1 {
+    margin-left: 1420px;
+}
+
+.right1:hover {
+    color: #555555;
+}
+
+.bannermargin {
+    margin-left: 70px;
+
+}
+
+.textmargin {
+    margin-left: 70px;
+    color: white;
+}
+
+.textcolor {
+    color: white;
+}
+
+.floatbutton {
+    float: right;
+    margin: 1700px;
+}
+
+.rightfloat {
+    float: right;
+}
+
+.textright {
+    text-align: right;
+}
+
+.floatbanner {
+    float: left;
+}
+
+.floatbanner1 {
+    float: left;
+    margin-left: 70px;
+}
+
+.textleftdescribe {
+    text-align: left;
+}
+
+.floatright {
+    float: right;
+    top: 30%;
+}
+
+.whitetext {
+    color: white;
+}
+
+.customsize {
+    margin: .67em 0;
+    font-size: 2em;
+}
+
+.textpadding {
+  padding-right: 10px;
+}
+
+.moviemargin {
+  margin-left: 75px;
+}
+
+.picmargin {
+  margin-left: 45px;
+}
