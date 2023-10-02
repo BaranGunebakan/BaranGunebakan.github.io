@@ -57,6 +57,39 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
+.cookies {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #333;
+  color: #fff;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.2);
+  z-index: 9999; /* Set a high z-index value */
+}
+
+.cookies a {
+  color: #fff;
+  text-decoration: underline;
+  margin-right: 20px;
+}
+
+.cookies button {
+  background-color: #007BFF;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.cookies button:hover {
+  background-color: #0056b3;
+}
+
+
 img {
   max-width: 100%;
   height: auto;
